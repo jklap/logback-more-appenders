@@ -2,6 +2,16 @@ Logback more appenders
 ==================================================
 is additional appenders for [Logback](http://logback.qos.ch/) and provide better performance and data consistency without any concern.
 
+## Maintenance Status
+
+This project is actively maintained.
+
+Users and organizations can use this project with confidence:
+- Security requirements（e.g., dependencies are up-to-date and maintained）are met.
+- Bug fixes and feature requests are welcome via GitHub Issues and Pull Requests.
+
+For questions or support, please use the [GitHub repository Issues](https://github.com/sndyuk/logback-more-appenders).
+
 ## Appenders
 
 - [CloudWatch](https://aws.amazon.com/cloudwatch/)
@@ -25,7 +35,7 @@ Just add it to your dependency then you can use the slf4j module in your applica
 
 ##### Gradle
 ```
-  implementation 'com.sndyuk:logback-more-appenders:1.8.6-JAVA9MODULE_SLF4J17'
+  implementation 'com.sndyuk:logback-more-appenders:1.8.8-JAVA9MODULE_SLF4J17'
 ```
 
 ##### Maven
@@ -33,7 +43,7 @@ Just add it to your dependency then you can use the slf4j module in your applica
   <dependency>
     <groupId>ch.qos.logback</groupId>
     <artifactId>logback-classic</artifactId>
-    <version>1.8.7-JAVA9MODULE_SLF4J17</version>
+    <version>1.8.8-JAVA9MODULE_SLF4J17</version>
   </dependency>
 ```
 
